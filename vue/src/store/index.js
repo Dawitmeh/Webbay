@@ -1,0 +1,20 @@
+import { createApp } from 'vue'
+import { createStore } from 'vuex'
+
+
+// Create a new store instance.
+
+const store = createStore({
+  state () {
+    return{}
+  },
+  mutations: {
+
+  }
+})
+
+
+// const app = createApp({store})
+
+
+app.use(store)

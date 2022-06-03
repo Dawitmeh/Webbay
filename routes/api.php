@@ -32,7 +32,6 @@ Route::resource('/templates', TemplateController::class);
 
 Route::resource('/components', ComponentController::class);
 
-// Get  Template
-
+// Get  Template (fetch specific template)
 
 
