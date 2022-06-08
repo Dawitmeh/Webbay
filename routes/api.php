@@ -34,4 +34,6 @@ Route::resource('/components', ComponentController::class);
 
 // Get  Template (fetch specific template)
 
-
+Route::get('getTemplateData', [TemplateController::class, "getTemplateData"]);
+Route::post('insertData', [TemplateController::class, "insertData"]);
+Route::post('updateTemplateData', [TemplateController::class, "updateTemplateData"]);
