@@ -17,20 +17,22 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
-});
+// Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
+//     return $request->user();
+// });
 
+// Authentications
 
 Route::post('/register', [AuthController::class, 'register']);
 Route::post('/login', [AuthController::class, 'login']);
-
-// Template Routes
+Route::post('/logout', [AuthController::class, 'logout']);
+// // Template Routes
 Route::resource('/templates', TemplateController::class);
 
-// Template Component
+// // Template Component
 
-Route::resource('/components', ComponentController::class);
+ Route::resource('/components', ComponentController::class);
+
 
 // Get  Template (fetch specific template)
 

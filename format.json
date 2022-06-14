@@ -1,0 +1,954 @@
+[
+    {
+        "templateId": "t5",
+        "sections": {
+            "header": {
+                "settings": {
+                    "bgColor": "Dark Blue",
+                    "bgSize": "600*540"
+                },
+                "container": [
+                    {
+                        "tagName": "Home",
+                        "routeTo": "Home",
+                        "settings": {
+                            "color": "White",
+                            "fontSize": "16"
+                        }
+                    },
+                    {
+                        "tagName": "About",
+                        "routeTo": "About",
+                        "settings": {
+                            "color": "White",
+                            "fontSize": "16"
+                        }
+                    },
+                    {
+                        "tagName": "Services",
+                        "routeTo": "Services",
+                        "settings": {
+                            "color": "White",
+                            "fontSize": "16"
+                        }
+                    }
+                    ,
+                    {
+                        "tagName": "Portfolio",
+                        "routeTo": "Portfolio",
+                        "settings": {
+                            "color": "White",
+                            "fontSize": "16"
+                        }
+                    }
+                    ,
+                    {
+                        "tagName": "Team",
+                        "routeTo": "Team",
+                        "settings": {
+                            "color": "White",
+                            "fontSize": "16"
+                        }
+                    }
+                    ,
+                    {
+                        "tagName": "Blog",
+                        "routeTo": "Blog",
+                        "settings": {
+                            "color": "White",
+                            "fontSize": "16"
+                        }
+                    },
+                    {
+                        "tagName": "Dropdown",
+                        "routeTo": "Dropdown",
+                        "settings": {
+                            "color": "White",
+                            "fontSize": "16"
+                        }
+                    },
+                    {
+                        "tagName": "Contact",
+                        "routeTo": "Contact",
+                        "settings": {
+                            "color": "White",
+                            "fontSize": "16"
+                        }
+                    }
+                ],
+                "logo": {
+                    "content": "Nova",
+                    "settings": {
+                        "color": "White",
+                        "fontSize": "24"
+                    }
+                }
+            },
+            "body": {
+                    "Home": [
+                            {
+                                "backgroundImage": {
+                                    "content": "#imageURL",
+                                            "settings": {
+                                                "bgSize": "600*540"
+                                            }
+                                        }
+                            },
+                            {
+                                "container" : [
+                                    {
+                                        "settings": {
+                                            "bgColor": "blue",
+                                            "fontSize": "30",
+                                            "size": "500*600"
+                                        } 
+                                    },
+                                    {
+                                        "headline" : "Focus On What Matters",
+                                        "settings": {
+                                            "color": "White",
+                                            "fontSize": "30"
+                                        } 
+                                    },
+                                    {
+                                        "subHeadlines": [
+                                            {
+                                                "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis cum recusandae eum laboriosam voluptatem repudiandae odio, vel exercitationem officiis provident minima.",
+                                                "settings": {
+                                                    "color": "White",
+                                                    "fontSize": "14   "
+                                                }
+                                            }
+                                            ,{
+                                                "contai ner": [
+                                                    { 
+                                                    "settings": {
+                                                            "color": "White",
+                                                            "bgColor": "Blue",
+                                                            "fontSize": "16"
+                                                        }
+                                                    },
+                                                    {
+                                                        "content": "Get Started",
+                                                        "settings": {
+                                                            "color": "White",
+                                                            "fontSize": "14"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                            ,{
+                                                "content": "Watch video",
+                                                "settings": {
+                                                    "color": "Grey",
+                                                    "fontSize": "16"
+                                                }
+                                                }
+                                        ]
+                                    }
+                                ]
+                            }
+                    ],
+                    "About": [
+                        {
+                            "backgroundImage": {
+                                "content": "#imageURL",
+                                    "settings": {
+                                        "bgSize": "600*540"         
+                                    }
+                            }
+                        },
+                        {
+                            "headline": "About",
+                            "settings": {
+                                "color": "White",
+                                "fontSize": "16"
+                            }
+                        },
+                        {
+                            "container": [
+                                {
+                                    "settings": {
+                                        "bgColor": "White",
+                                        "fontSize": "30",
+                                        "size": "500*600"
+                                    } 
+                                },
+                                {
+                                    "subHeadlines": [
+                                        {
+                                            "content": "Voluptatem dignissimos provident quasi",
+                                            "settings": {
+                                                "color": "Black",
+                                                "fontSize": "16"
+                                            }
+                                        },
+                                        {
+                                            "content": "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident",
+                                            "settings": {
+                                                "color": "Black",
+                                                "fontSize": "16"
+                                            }
+                                        },
+                                        {
+                                            "content": "Duis aute irure dolor in reprehenderit in voluptate velit.",
+                                            "settings": {
+                                                "color": "Black",
+                                                "fontSize": "16"
+                                            }
+                                        },
+                                        {
+                                            "content": "Ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                                            "settings": {
+                                                "color": "White",
+                                                "fontSize": "16"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "content": "Why Choose Us",
+                                "settings": {
+                                    "bgColor": "Black",
+                                    "fontSize": "30"
+                                } 
+                        },
+                        {
+                            "container": [
+                                {
+                                    "settings": {
+                                        "bgColor": "Light grey",
+                                        "fontSize": "30",
+                                        "size": "500*600"
+                                    } 
+                                },
+                                {
+                                    "content": "#imageURL",
+                                    "settings": {
+                                        "bgColor": "Black",
+                                        "fontSize": "30",
+                                        "bgSize": "400*600"
+                                    } 
+                                },
+                                {
+                                    "subHeadlines": [
+                                        
+                                        {
+                                            "content": "Voluptatem dignissimos provident quasi",
+                                            "settings": {
+                                                "color": "White",
+                                                "fontSize": "16",
+                                                "fontStyle": "Bold",
+                                                "cardNr": "1"
+                                            }
+                                        },
+                                        {
+                                            "content": "Voluptatem dignissimos provident quasi",
+                                            "settings": {
+                                                "color": "White",
+                                                "fontSize": "16",
+                                                "cardNr": "1"
+                                            }
+                                        },
+                                        {
+                                            "content": "Voluptatem dignissimos provident quasi",
+                                            "settings": {
+                                                "color": "White",
+                                                "fontSize": "16",
+                                                "cardNr": "1"
+                                            }
+                                        },
+                                        {
+                                            "content": "Voluptatem dignissimos provident quasi",
+                                            "settings": {
+                                                "color": "White",
+                                                "fontSize": "16",
+                                                "cardNr": "2",
+                                                "fontStyle": "Bold"
+                                            }
+                                        },
+                                        {
+                                            "content": "Voluptatem dignissimos provident quasi",
+                                            "settings": {
+                                                "color": "White",
+                                                "fontSize": "16",
+                                                "cardNr": "2"
+                                            }
+                                        },
+                                        {
+                                            "content": "Voluptatem dignissimos provident quasi",
+                                            "settings": {
+                                                "color": "White",
+                                                "fontSize": "16",
+                                                "cardNr": "2"
+                                            }
+                                        },
+                                        {
+                                            "content": "Voluptatem dignissimos provident quasi",
+                                            "settings": {
+                                                "color": "White",
+                                                "fontSize": "16",
+                                                "cardNr": "3",
+                                                "fontStyle": "Bold"
+                                            }
+                                        },
+                                        {
+                                            "content": "Voluptatem dignissimos provident quasi",
+                                            "settings": {
+                                                "color": "White",
+                                                "fontSize": "16",
+                                                "cardNr": "3"
+                                            }
+                                        },
+                                        {
+                                            "content": "Voluptatem dignissimos provident quasi",
+                                            "settings": {
+                                                "color": "White",
+                                                "fontSize": "16",
+                                                "cardNr": "3"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "container": [
+                                {
+                                    "backgroundImage": {
+                                        "content": "#imageURL",
+                                            "settings": {
+                                                "bgSize": "cover"         
+                                            }
+                                    }
+                                },
+                                {
+                                    "settings": {
+                                        "bgColor": "Dark Blue",
+                                        "fontSize": "30",
+                                        "size": "500*600"
+                                    }
+                                },
+                                {
+                                    "content": "Ut fugiat aliquam aut non",
+                                    "settings": {
+                                        "color": "White",
+                                        "fontSize": "18",
+                                        "fontStyle": "bold"
+                                    }
+                                },
+                                {
+                                    "content": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+                                    "settings": {
+                                        "color": "White",
+                                        "fontSize": "14"
+                                    }
+                                },
+                                {
+                                    "container": [
+                                        {
+                                            "settings": {
+                                                "bgColor": "Light Blue"
+                                            }
+                                        },
+                                        {
+                                            "content": "Call To Action",
+                                            "settings": {
+                                                "color": "White",
+                                                "fontSize": "16"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "content": "Our Team",
+                            "settings": {
+                                "bgColor": "Black",
+                                        "fontSize": "30"
+                            } 
+                        },
+                        {
+                            "container": [
+                                {
+                                    "settings": {
+                                        "bgColor": "White",
+                                        "size": "500*600"
+                                    }
+                                },
+                                {
+                                    "gallery": [
+                                        {
+                                            "settings": {
+                                                "bgColor": "White"
+                                            }
+                                        },
+                                        {
+                                            "image": "#imageURL",
+                                            "subHeadlines": [
+                                                {
+                                                    "content": "Walter White",
+                                                        "settings": {
+                                                            "color": "Black",
+                                                            "fontSize": "20"
+                                                        }
+                                                },
+                                                {
+                                                    "content": "Chief Executive Officer",
+                                                        "settings": {
+                                                            "color": "Black",
+                                                            "fontSize": "14"
+                                                        }
+                                                }
+                                            ]
+
+                                        },
+                                        {
+                                            "image": "#imageURL",
+                                            "subHeadlines": [
+                                                {
+                                                    "content": "Sarah Jhonson",
+                                                        "settings": {
+                                                            "color": "Black",
+                                                            "fontSize": "20"
+                                                        }
+                                                },
+                                                {
+                                                    "content": "Product Manager",
+                                                        "settings": {
+                                                            "color": "Black",
+                                                            "fontSize": "14"
+                                                        }
+                                                }
+                                            ]
+
+                                        },
+                                        {
+                                            "image": "#imageURL",
+                                            "subHeadlines": [
+                                                {
+                                                    "content": "William Anderson",
+                                                    "settings": {
+                                                        "color": "Black",
+                                                        "fontSize": "20"
+                                                    }
+                                                },
+                                                {
+                                                    "content": "CTO",
+                                                    "settings": {
+                                                        "color": "Black",
+                                                        "fontSize": "14"
+                                                    }
+                                                }
+                                            ]
+
+                                        },
+                                        {
+                                            "image": "#imageURL",
+                                            "subHeadlines": [
+                                                {
+                                                    "content": "Amanda Jepson",
+                                                        "settings": {
+                                                            "color": "Black",
+                                                            "fontSize": "20"
+                                                        }
+                                                },
+                                                {
+                                                    "content": "Accountant",
+                                                        "settings": {
+                                                            "color": "Black",
+                                                            "fontSize": "14"
+                                                        }
+                                                }
+                                            ]
+
+                                        }
+                                        
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "Services": [
+                        {
+                            "backgroundImage": {
+                                "content": "#imageURL",
+                                    "settings": {
+                                        "bgSize": "600*540"         
+                                    }
+                            }
+                        },
+                        {
+                            "headline": "Services",
+                            "settings": {
+                                "color": "White",
+                                "fontSize": "16"
+                            }
+                        },
+                        {
+                            "content": "Our Services",
+                                "settings": {
+                                    "color": "Black",
+                                    "fontSize": "30"
+                                } 
+                        },
+                        {
+                            "container": [
+                                {
+                                    "content": "Lorem Ipsum",
+                                    "settings": {
+                                        "color": "Black",
+                                        "fontSize": "18",
+                                        "fontStyle": "Bold"
+                                    }
+                                },
+                                {
+                                    "content": "Lorem Ipsum",
+                                    "settings": {
+                                        "color": "Black",
+                                        "fontSize": "14"
+                                    }
+                                },
+                                {
+                                    "content": "Lorem Ipsum",
+                                    "settings": {
+                                        "color": "Black",
+                                        "fontSize": "18"
+                                    }
+                                },
+                                {
+                                    "content": "Lorem Ipsum",
+                                    "settings": {
+                                        "color": "Black",
+                                        "fontSize": "14"
+                                    }
+                                },
+                                {
+                                    "content": "Lorem Ipsum",
+                                    "settings": {
+                                        "color": "Black",
+                                        "fontSize": "18"
+                                    }
+                                },
+                                {
+                                    "content": "Lorem Ipsum",
+                                    "settings": {
+                                        "color": "Black",
+                                        "fontSize": "14"
+                                    }
+                                },
+                                {
+                                    "content": "Lorem Ipsum",
+                                    "settings": {
+                                        "color": "Black",
+                                        "fontSize": "18"
+                                    }
+                                },
+                                {
+                                    "content": "Lorem Ipsum",
+                                    "settings": {
+                                        "color": "Black",
+                                        "fontSize": "14"
+                                    }
+                                },
+                                {
+                                    "content": "Lorem Ipsum",
+                                    "settings": {
+                                        "color": "Black",
+                                        "fontSize": "18"
+                                    }
+                                },
+                                {
+                                    "content": "Lorem Ipsum",
+                                    "settings": {
+                                        "color": "Black",
+                                        "fontSize": "14"
+                                    }
+                                },
+                                {
+                                    "content": "Lorem Ipsum",
+                                    "settings": {
+                                        "color": "Black",
+                                        "fontSize": "18"
+                                    }
+                                },
+                                {
+                                    "content": "Lorem Ipsum",
+                                    "settings": {
+                                        "color": "Black",
+                                        "fontSize": "14"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "container": [
+                                {
+                                    "content": "Lorem Ipsum",
+                                    "settings": {
+                                        "color": "Black",
+                                        "fontSize": "18",
+                                        "fontStyle": "Bold"
+                                    }
+                                },
+                                {
+                                    "gallery": [
+                                        {
+                                            "settings": {
+                                                "bgColor": "White"
+                                            }
+                                        },
+                                        {
+                                            "image": "#imageURL",
+                                            "subHeadlines": [
+                                                {
+                                                    "content": "Eligendi omnis sunt veritatis",
+                                                        "settings": {
+                                                            "color": "Black",
+                                                            "fontSize": "20",
+                                                            "fontStyle": "Bold"
+                                                        }
+                                                },
+                                                {
+                                                    "content": "Fuga in dolorum et iste et culpa. Commodi possimus nesciunt modi voluptatem placeat deleniti adipisci. Cum delectus doloribus non veritatis. Officia temporibus illo magnam. Dolor eos et.",
+                                                        "settings": {
+                                                            "color": "Black",
+                                                            "fontSize": "14"
+                                                        }
+                                                }
+                                            ]
+
+                                        },
+                                        {
+                                            "image": "#imageURL",
+                                            "subHeadlines": [
+                                                {
+                                                    "content": "Possimus ut sed velit assumenda",
+                                                        "settings": {
+                                                            "color": "Black",
+                                                            "fontSize": "20",
+                                                            "fontStyle": "Bold"
+                                                        }
+                                                },
+                                                {
+                                                    "content": "Sunt deserunt maiores voluptatem autem est rerum perferendis rerum blanditiis. Est laboriosam qui iste numquam laboriosam voluptatem architecto. Est laudantium sunt at quas aut hic. Eum dignissimos",
+                                                        "settings": {
+                                                            "color": "Black",
+                                                            "fontSize": "14"
+                                                        }
+                                                }
+                                            ]
+
+                                        },
+                                        {
+                                            "image": "#imageURL",
+                                            "subHeadlines": [
+                                                {
+                                                    "content": "Error beatae dolor inventore aut",
+                                                        "settings": {
+                                                            "color": "Black",
+                                                            "fontSize": "20",
+                                                            "fontStyle": "Bold"
+                                                        }
+                                                },
+                                                {
+                                                    "content": "Dicta porro nobis. Velit cum in. Nesciunt dignissimos enim molestiae facilis numquam quae quaerat ipsam omnis. Neque debitis ipsum at architecto officia laboriosam odit. Ut sunt temporibus nulla culpa.",                                                    "settings": {
+                                                            "color": "Black",
+                                                            "fontSize": "14"
+                                                        }
+                                                }
+                                            ]
+
+                                        },
+                                        {
+                                            "image": "#imageURL",
+                                            "subHeadlines": [
+                                                {
+                                                    "content": "Expedita voluptas ut ut nesciunt",
+                                                        "settings": {
+                                                            "color": "Black",
+                                                            "fontSize": "20",
+                                                            "fontStyle": "Bold"
+                                                        }
+                                                },
+                                                {
+                                                    "content": "Aut est quidem doloremque voluptatem magnam quis excepturi vero quia. Eum eos doloremque architecto illo at beatae dolore. Fugiat suscipit et sint ratione dolores. Aut aliquid ea dolores libero nobis.",
+                                                        "settings": {
+                                                            "color": "Black",
+                                                            "fontSize": "14"
+                                                        }
+                                                }
+                                            ]
+
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "content": "Testimonials",
+                            "settings": {
+                                "fontSize": "22",
+                                "fontStyle": "Bold",
+                                "color": "Black"
+                            }
+                        },
+                        {
+                            "container": [
+                                {
+                                    "settings": {
+                                        "bgSize": "400*600",
+                                        "bgColor": "White"
+                                    }
+                                },
+                                {
+                                    "container": [
+                                        {
+                                            "content": "#imageURL",
+                                            "settings": {
+                                                "size": "100*120"
+                                            }
+                                        },
+                                        {
+                                            "subHeadlines": [
+                                                {
+                                                    "content": "Sara Wilson",
+                                                    "settings": {
+                                                        "fontSize": "22",
+                                                        "fontStyle": "Bold",
+                                                        "color": "Black"
+                                                    }
+                                                },
+                                                {
+                                                    "content": "dsaf sdaf asdf sa",
+                                                    "settings": {
+                                                        "fontSize": "14",
+                                                        "color": "Black"
+                                                    }
+                                                },
+                                                {
+                                                    "content": "Designer",
+                                                    "settings": {
+                                                        "fontSize": "22",
+                                                        "color": "Grey"
+                                                    }
+                                                }
+                                            ]  
+                                        }
+                                    ]
+                                },
+                                {
+                                    "container": [
+                                        {
+                                            "content": "#imageURL",
+                                            "settings": {
+                                                "size": "100*120"
+                                            }
+                                        },
+                                        {
+                                            "subHeadlines": [
+                                                {
+                                                    "content": "Jena Karlis",
+                                                    "settings": {
+                                                        "fontSize": "22",
+                                                        "fontStyle": "Bold",
+                                                        "color": "Black"
+                                                    }
+                                                },
+                                                {
+                                                    "content": "das sdag asd dsafg",
+                                                    "settings": {
+                                                        "fontSize": "14",
+                                                        "color": "Black"
+                                                    }
+                                                },
+                                                {
+                                                    "content": "Store Owner",
+                                                    "settings": {
+                                                        "fontSize": "22",
+                                                        "color": "Grey"
+                                                    }
+                                                }
+                                            ]  
+                                        }
+                                    ]
+                                },
+                                {
+                                    "container": [
+                                        {
+                                            "content": "#imageURL",
+                                            "settings": {
+                                                "size": "100*120"
+                                            }
+                                        },
+                                        {
+                                            "subHeadlines": [
+                                                {
+                                                    "content": "Matt Brandon",
+                                                    "settings": {
+                                                        "fontSize": "22",
+                                                        "fontStyle": "Bold",
+                                                        "color": "Black"
+                                                    }
+                                                },
+                                                {
+                                                    "content": "das sdag asd dsafg",
+                                                    "settings": {
+                                                        "fontSize": "14",
+                                                        "color": "Black"
+                                                    }
+                                                },
+                                                {
+                                                    "content": "Freelancer",
+                                                    "settings": {
+                                                        "fontSize": "22",
+                                                        "color": "Grey"
+                                                    }
+                                                }
+                                            ]  
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+
+            "footer": {
+                "settings": {
+                    "bgColor": "Light grey",
+                    "size": "500*600"
+                },
+                "container": [
+                    {
+                        "content": "Useful Links",
+                        "settings": {
+                            "fontSize": "22",
+                            "color": "Black"
+                        }
+                    },
+                    {
+                        "tagName": "Home",
+                        "routeTo": "Home",
+                        "settings": {
+                            "color": "White",
+                            "fontSize": "16"
+                        }
+                    },
+                    {
+                        "tagName": "About",
+                        "routeTo": "About",
+                        "settings": {
+                            "color": "Black",
+                            "fontSize": "16"
+                        }
+                    },
+                    {
+                        "tagName": "Services",
+                        "routeTo": "Services",
+                        "settings": {
+                            "color": "Black",
+                            "fontSize": "16"
+                        }
+                    },
+                    {
+                        "tagName": "Terms of service",
+                        "routeTo": "Termsofservice",
+                        "settings": {
+                            "color": "Black",
+                            "fontSize": "16"
+                        }
+                    },
+                    {
+                        "tagName": "Privacy policy",
+                        "routeTo": "Privacy",
+                        "settings": {
+                            "color": "Black",
+                            "fontSize": "16"
+                        }
+                    },
+                    {
+                        "content": "Our Services",
+                        "settings": {
+                            "fontSize": "22",
+                            "color": "Black"
+                        }
+                    },
+                    {
+                        "tagName": "Web Design",
+                        "routeTo": "webdesign",
+                        "settings": {
+                            "color": "White",
+                            "fontSize": "16"
+                        }
+                    },
+                    {
+                        "tagName": "Web Development",
+                        "routeTo": "Webdevelopment",
+                        "settings": {
+                            "color": "Black",
+                            "fontSize": "16"
+                        }
+                    },
+                    {
+                        "tagName": "Product Management",
+                        "routeTo": "Productmanagement",
+                        "settings": {
+                            "color": "Black",
+                            "fontSize": "16"
+                        }
+                    },
+                    {
+                        "tagName": "Marketing",
+                        "routeTo": "Marketing",
+                        "settings": {
+                            "color": "Black",
+                            "fontSize": "16"
+                        }
+                    },
+                    {
+                        "tagName": "Graphic Design",
+                        "routeTo": "Graphicdesign",
+                        "settings": {
+                            "color": "Black",
+                            "fontSize": "16"
+                        }
+                    },
+                    {
+                        "content": "Contact Us",
+                        "settings": {
+                            "fontSize": "22",
+                            "color": "Black"
+                        }
+                    },
+                    {
+                        "contactInfo": {
+                            "address": "A108 Adam Street New York, NY 535022 United States",
+                            "phone": "+1 5589 55488 55",
+                            "email": "info@example.com"
+                        }
+                    },
+                    {
+                        "content": "© Copyright Nova. All Rights Reserved",
+                        "settings": {
+                            "color": "Black",
+                            "fontSize": "22"
+                        }
+                    }
+
+                ],
+                "logo": {
+                    "content": "Nova",
+                    "settings": {
+                        "color": "White",
+                        "fontSize": "24"
+                    }
+                }
+            }
+        },
+        "temlateTag": "dark"
+    }
+]
