@@ -39,7 +39,8 @@ export default {
             }
     },
     created(){
-      let response = axios.get('../../Templates/Nova/Nova/index.html')
+      let response = axios.get('https://nova.gotechint.com/')
+      console.log('template', response)
       this.template = response.data
     }
   }

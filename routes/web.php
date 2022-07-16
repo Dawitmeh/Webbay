@@ -16,3 +16,14 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::domain('https://nova.gotechint.com/')->group(function ($router) {
+    //
+});
+
+
+Route::domain('{gotechint}.com')->group(function () {
+    Route::get('/nova.gotechint.com', function () {
+        return 'gotechint.com';
+    });
+});
