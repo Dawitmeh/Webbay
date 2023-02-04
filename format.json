@@ -34,8 +34,8 @@
                     }
                     ,
                     {
-                        "tagName": "Portfolio",
-                        "routeTo": "Portfolio",
+                        "tagName": "Portfolio", 
+                        "routeTo": "Portfolio", 
                         "settings": {
                             "color": "White",
                             "fontSize": "16"

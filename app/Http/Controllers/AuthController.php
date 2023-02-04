@@ -35,6 +35,8 @@ class AuthController extends Controller
             'password' => 'required'
         ]);
 
+
+        
          if (!Auth::attempt($credentials)) {
              return response([
                  'error' => 'The Provided credentials are not correct'
